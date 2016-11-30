@@ -15,6 +15,15 @@
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<style>
+			section.white-background { 
+				padding-left: 1em !important;
+				padding-right: 1em !important;
+				background: white; 
+				background: rgba(255,255,255,.75);
+				border-radius: 1em;
+			}
+		</style>
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -37,9 +46,24 @@
 				</section>
 				<section>
 					<h2>Hello There</h2>
-					<p>
-						RobodyCare uses machine learning and efficient algorithms to improve people's mental and physical health. The mind-controlled massager uses EEG brain waves, 3D printing and embedded systems to help both diagnosis and treatment of stress and chronic pain. It exemplifies the democratization of data-driven healthcare methods at low cost.
-					</p>
+					<p>RobodyCare uses machine learning and efficient algorithms to improve people's mental and physical health.</p>
+					<p>The mind-controlled massager uses <strong>EEG brain waves</strong>, <strong>3D printing</strong> and <strong>embedded systems</strong> to help both diagnosis and treatment of stress and chronic pain. It exemplifies the democratization of data-driven healthcare methods at low cost.</p>
+				</section>
+
+				<section data-background='img/stress.jpg' class='white-background'>
+					<h2>Current problem</h2>
+					<p>We encounter numerous significant factors leading to <strong>stressful</strong> days.</p>
+					<p> According to the National Institutes of Mental Health, 75% of all individuals with <strong>depression</strong> and <strong>anxiety</strong> will first begin to experience these symptoms before the age of 22.</p>
+				</section>
+
+				<section>
+					<h2>What can we do about it?</h2>
+					<p>Several studies have shown that through <strong>massage therapy</strong>, specifically around the head region, individuals have reported feeling less depressed and angry, sleeping better, and having more energy and focus throughout their day.</p>
+				</section>
+
+				<section>
+					<h2>Proposed innovation</h2>
+					<p>We propose to create a new <strong>integrated biofeedback device</strong>, which will stimulate user’s head and other important acupuncture points on the user’s body in order to sooth the user both physically and mentally.</p>
 				</section>
 
 				<section>
@@ -53,46 +77,72 @@
 					<section>
 						<h2>NeuroSky EEG Brainwave Reader</h2>
 						<p>Interpreted with machine learning</p>
-						<img src='img/brain-wave-states.jpg' />
+						<img src='img/brain-wave-states.jpg' width="400" />
 					</section>
 					<section>
 						<h2>Vibrational Motors</h2>
-						<p>Controlled by Raspberry Pi with Pulse-Width-Modulation</p>
+						<p>Controlled by <strong>Raspberry Pi</strong> with Pulse-Width-Modulation</p>
+						<img src='img/raspberrypi-model-b-plus.png' width="500" />
 					</section>
 					<section>
 						<h2>3D Printed Motor Mounts</h2>
-						<br>
+						<p>Flexible 3D printed casings, the current helmet design can be expanded to 3D printed clothing, where vibrational motors would be attached to where the acupuncture points are.</p>
 						<a href="#/2">
 							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
 						</a>
 					</section>
 				</section>
 
-
-				<section id="transitions">
-					<p>
-						<a href="?transition=zoom#/transitions">EEG, 	Raspberry Pi, Machine Learning, 3D Printing, Laser 	Cutting</a>
-					</p>
-					
+				<section class='white-background' data-background='img/ai.jpg'>
+					<h2>Data driven</h2>
+					<p>One of the further possible and exciting extensions of this project is the ability to help diagnose particular types of chronic pain.</p>
+					<p>With <strong>machine learning</strong> and efficient algorithms, we would be able to differentiate pain in different parts of the body, thus activate corresponding vibrational motors when certain types of pain is detected.</p>
 				</section>
 
-
 				<section>
-					<section id="fragments">
+					<section>
 						<h2>Team</h2>
 						<p>
-							<div class="fragment shrink">Xiao</div>
-							<div class="fragment grow">Ondrej</div>
-							<div class="fragment fade-red">Alankrita</div>
-							<div class="fragment highlight-blue">Ngoc</div>
-							<div class="fragment fade-up">Katie</div>
-							<div class="fragment highlight-green">Thao</div>
-							<div class="fragment grow">Aniruddha</div>
-							<div class="fragment shrink">Jean-Francois</div>
+							<div>Xiao</div>
+							<div>Ondrej</div>
+							<div>Alankrita</div>
+							<div>Ngoc</div>
+							<div>Katie</div>
+							<div>Thao</div>
+							<div>Aniruddha</div>
+							<div>Jean-Francois</div>
 						</p>
 						<aside class="notes">
 							This slide has fragments which are also stepped through in the notes window.
 						</aside>
+					</section>
+					<section>
+						<h2>Xiao Fu</h2>
+						<p>Undergraduate student at UC Berkeley double majoring in Computer Science and Chemistry, minoring in philosophy. Xiao loves tinkering, and is experienced with Arduino, Raspberry Pi, 3D printing, laser cutting, embedded systems and Printed Circuit Board(PCB) design.</p>
+					</section>
+					<section>
+						<h2>Ondrej Svec</h2>
+						<p>Graduate student in Computer Science at Charles University in Prague, with concentration in Artificial Intelligence. Ondrej has been developing web applications since 2005 and has programmed a good deal of tailor-made systems since then. He is aware that technologies are evolving beasts and he tames them with his knowledge of Artificial Intelligence. C++, Java, Python, JavaScript, SQL</p>
+					</section>
+					<section>
+						<h2>Alankrita Dayal</h2>
+						<p>is a third-year undergraduate at the University of California-Berkeley, pursuing a double major in Computer Science and Business Administration and minors in Public Policy and South Asian Studies. She is extremely passionate towards finding solutions to better the lives of those in her community and over the past several years, has actively developed numerous hardware technologies that have allowed her to best do so! Alankrita offers her technical talent, diversity, and strategic thinking in our team.</p>
+					</section>
+					<section>
+						<h2>Ngoc (Mai) Nguyen</h2>
+						<p>PhD student in neuroendocrinology at UC Berkeley. Mai also holds a BS in microbiology from UC Berkeley, and have extensive understanding of neuroscience and EEG.</p>
+					</section>
+					<section>
+						<h2>Thao Tran, Katie Huang</h2>
+						<p>Undergraduate students at UC Berkeley in Psychology. Thao and Katie both have extensive understanding of cognitive neuropsychology, and are experienced with EEG interpretation.</p>
+					</section>
+					<section>
+						<h2>Aniruddha Dayal</h2>
+						<p>is a senior at the University of California-Los Angeles, pursuing a double major in Computer Science and Linguistics and minor in Mathematics. He is passionate about improving living conditions and enjoys developing, testing, and deploying technologies to maximize the benefits that he creates! Aniruddha brings in his software and hardware expertise as well as product management skillset.</p>
+					</section>
+					<section>
+						<h2>Jean-Francois Jollivet</h2>
+						<p>Graduate student in Electrical Engineering at Ecole des Mines de Paris (Paris Institute of Technology).</p>
 					</section>
 				</section>
 
