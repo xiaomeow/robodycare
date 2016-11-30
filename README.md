@@ -1,2 +1,3 @@
-# Mind-Controlled Healthcare System with Biofeedback
+# Robodycare
+Mind-Controlled Healthcare System with Biofeedback
 ### Created for Big Ideas at Berkeley
